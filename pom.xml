@@ -186,20 +186,11 @@
                     <testFailureIgnore>true</testFailureIgnore>
                     <!--                Test Runner Files-->
                     <suiteXmlFiles>
-                        <suiteXmlFile>target/test-classes/AmazonTestRunner.xml</suiteXmlFile>
+                        <suiteXmlFile>target/test-classes/com/targetTestRunner.xml</suiteXmlFile>
 
                     </suiteXmlFiles>
-
                 </configuration>
-
-
-
-
             </plugin>
-
-
-
         </plugins>
     </build>
-
 </project>

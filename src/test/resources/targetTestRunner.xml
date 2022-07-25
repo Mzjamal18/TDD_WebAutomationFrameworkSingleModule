@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Target Test Suite">
+
+    <parameter name="useCloudEnv" value="false"/>
+    <parameter name="cloudEnvName" value="browserStack"/>
+    <parameter name="os" value="windows"/>
+    <parameter name="osVersion" value="10"/>
+    <parameter name="browserVersion" value="103"/>
+    <parameter name="browserName" value="chrome"></parameter>
+    <parameter name="url" value="https://www.target.com/"></parameter>
+
+    <test name="Target Web Automation">
+        <classes>
+<!--            <class name="com.target.testPages.homePageTest.HomePageTestVerification"></class>-->
+<!--            <class name="com.target.testPages.homePageTest.HomePageTestVerification1"></class>-->
+<!--            <class name="com.target.testPages.homePageTest.HomePageTestVerification2"></class>-->
+            <class name="com.target.testPages.homePageTest.testFromMahmudVai"></class>
+<!--            <class name="com.target.testPages.registrationPageTest.RegistrationPageTest"></class>-->
+        </classes>
+    </test>
+ </suite>
